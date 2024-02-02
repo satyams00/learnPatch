@@ -1,0 +1,12 @@
+diff --git a/new.txt b/new.txt
+index 1ed097a..450663c 100644
+--- a/new.txt
++++ b/new.txt
+@@ -2,3 +2,6 @@ Patch 0
+ Patch 1
+ Patch 2
+ Patch 3
++
++
++diff
+\ No newline at end of file

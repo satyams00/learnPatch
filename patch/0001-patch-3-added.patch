@@ -1,0 +1,21 @@
+From 67fad53a6e1375d0f676a966fa3ec66a33889a6e Mon Sep 17 00:00:00 2001
+From: satyams00 <ssingh20062000@gmail.com>
+Date: Fri, 2 Feb 2024 10:03:48 +0530
+Subject: [PATCH 1/2] patch 3 added
+
+---
+ new.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/new.txt b/new.txt
+index b977ff1..1ed097a 100644
+--- a/new.txt
++++ b/new.txt
+@@ -1,3 +1,4 @@
+ Patch 0
+ Patch 1
+ Patch 2
++Patch 3
+-- 
+2.43.0.windows.1
+

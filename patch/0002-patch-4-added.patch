@@ -1,0 +1,22 @@
+From c23c06426cd0cd155d6dc27cd0e3dd0dc34f9eb3 Mon Sep 17 00:00:00 2001
+From: satyams00 <ssingh20062000@gmail.com>
+Date: Fri, 2 Feb 2024 10:04:05 +0530
+Subject: [PATCH 2/2] patch 4 added
+
+---
+ new.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/new.txt b/new.txt
+index 1ed097a..60f44d1 100644
+--- a/new.txt
++++ b/new.txt
+@@ -2,3 +2,4 @@ Patch 0
+ Patch 1
+ Patch 2
+ Patch 3
++Patch 4
+\ No newline at end of file
+-- 
+2.43.0.windows.1
+
