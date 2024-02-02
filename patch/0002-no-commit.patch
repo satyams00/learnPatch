@@ -1,0 +1,90 @@
+From cb0ef00beec42667b2fd34e59e14be56960c1b67 Mon Sep 17 00:00:00 2001
+From: satyams00 <ssingh20062000@gmail.com>
+Date: Fri, 2 Feb 2024 10:11:53 +0530
+Subject: [PATCH 2/2] no commit
+
+---
+ p1                             | 12 ++++++++++++
+ patch/0001-patch-3-added.patch | 21 +++++++++++++++++++++
+ patch/0002-patch-4-added.patch | 22 ++++++++++++++++++++++
+ 3 files changed, 55 insertions(+)
+ create mode 100644 p1
+ create mode 100644 patch/0001-patch-3-added.patch
+ create mode 100644 patch/0002-patch-4-added.patch
+
+diff --git a/p1 b/p1
+new file mode 100644
+index 0000000..634d3e8
+--- /dev/null
++++ b/p1
+@@ -0,0 +1,12 @@
++diff --git a/new.txt b/new.txt
++index 1ed097a..450663c 100644
++--- a/new.txt
+++++ b/new.txt
++@@ -2,3 +2,6 @@ Patch 0
++ Patch 1
++ Patch 2
++ Patch 3
+++
+++
+++diff
++\ No newline at end of file
+diff --git a/patch/0001-patch-3-added.patch b/patch/0001-patch-3-added.patch
+new file mode 100644
+index 0000000..88df2f9
+--- /dev/null
++++ b/patch/0001-patch-3-added.patch
+@@ -0,0 +1,21 @@
++From 67fad53a6e1375d0f676a966fa3ec66a33889a6e Mon Sep 17 00:00:00 2001
++From: satyams00 <ssingh20062000@gmail.com>
++Date: Fri, 2 Feb 2024 10:03:48 +0530
++Subject: [PATCH 1/2] patch 3 added
++
++---
++ new.txt | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/new.txt b/new.txt
++index b977ff1..1ed097a 100644
++--- a/new.txt
+++++ b/new.txt
++@@ -1,3 +1,4 @@
++ Patch 0
++ Patch 1
++ Patch 2
+++Patch 3
++-- 
++2.43.0.windows.1
++
+diff --git a/patch/0002-patch-4-added.patch b/patch/0002-patch-4-added.patch
+new file mode 100644
+index 0000000..3f088da
+--- /dev/null
++++ b/patch/0002-patch-4-added.patch
+@@ -0,0 +1,22 @@
++From c23c06426cd0cd155d6dc27cd0e3dd0dc34f9eb3 Mon Sep 17 00:00:00 2001
++From: satyams00 <ssingh20062000@gmail.com>
++Date: Fri, 2 Feb 2024 10:04:05 +0530
++Subject: [PATCH 2/2] patch 4 added
++
++---
++ new.txt | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/new.txt b/new.txt
++index 1ed097a..60f44d1 100644
++--- a/new.txt
+++++ b/new.txt
++@@ -2,3 +2,4 @@ Patch 0
++ Patch 1
++ Patch 2
++ Patch 3
+++Patch 4
++\ No newline at end of file
++-- 
++2.43.0.windows.1
++
+-- 
+2.43.0.windows.1
+
